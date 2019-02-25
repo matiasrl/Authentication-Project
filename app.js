@@ -35,7 +35,7 @@ function initClient() {
 }
 
 //Actualizar la información de la cuenta
-function updateSigninStatus() {
+function updateSigninStatus(isSignedIn) {
     if (isSignedIn) {
         authorizeButton.style.display = 'none';
         signoutButton.style.display = 'block';
