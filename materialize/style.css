@@ -1,0 +1,6 @@
+#signout-button, #video-container #channel-data{
+    display: none;
+}
+#authorize-button, #signout-button{  
+    margin: 0px 20px;
+}
